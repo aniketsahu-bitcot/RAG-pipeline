@@ -1,0 +1,24 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+
+# Environment variables (keep the example)
+.env
+.env.*
+!.env.example
+
+# Local data (Chroma vector store, uploaded PDFs)
+rag_pdf_chatbot/data/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
